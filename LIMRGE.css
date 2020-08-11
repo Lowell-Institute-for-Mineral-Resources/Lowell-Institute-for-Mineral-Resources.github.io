@@ -89,12 +89,12 @@ html::-webkit-scrollbar-track {
     color:rgba(255,255,255,.87);
     height:24px;
     cursor: pointer;
-    background-color: #0052dc;
+    background-color: #AB0520;
     border-radius: 10px;
     margin-left:2%;
 }
 .abutton:hover{
-    background-color: #2979ff;
+    background-color: #EF4056;
     cursor: pointer;
 }
 #container{
@@ -312,7 +312,7 @@ html::-webkit-scrollbar-track {
 }
  /*Footer CSS*/
 .footer{
-    background: #202124;
+    background: #0C234B;
     border-top: 1px solid #424346;
     font-size: 1rem;
     width: 100%;
@@ -459,7 +459,7 @@ html::-webkit-scrollbar-track {
     margin-right: 8px;
     font-size: 18px;
     line-height: 32px;
-    background-color: #2979ff;
+    background-color: #0C234B;
     font-weight: 500
 }
 
