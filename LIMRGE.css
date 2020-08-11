@@ -1,5 +1,5 @@
 /*This Css file is adapted from the file created by Josh Williams of GETeach.com*/
-/*I am a meet popsicle */
+/*I am a meat popsicle */
 body, html{
     font-size: 14px;
     font-weight: normal;
@@ -559,3 +559,26 @@ html::-webkit-scrollbar-track {
 .playoverlay:hover { 
 	opacity: 0.8 
 }
+
+/*Navigation Button Formatting */     
+
+
+.mdl-button--Next {
+    background-color: #007D84;
+    color: white;
+    float: right;
+    width: 125px;
+      
+}
+
+.mdl-button--Previous {
+    background-color: #007D84;
+    color: white;
+    float: left;
+    width: 125px;   
+
+}
+
+.mdl-button--KeepHiking {
+    background-color: #007D84;
+    color: white;
