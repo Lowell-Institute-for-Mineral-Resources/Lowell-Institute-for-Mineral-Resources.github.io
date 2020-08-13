@@ -31,30 +31,30 @@ body, html{
     overflow-wrap: break-word;
 }
 a {
-  color: rgb(68,138,255);
+  color: #8B0015;
   font-weight: normal;
   text-decoration: none;
 }
 a:link {
-  color: rgb(68,138,255);
+  color: #8B0015;
   font-weight: normal;
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(68,138,255);
+  color: #EF4056;
   font-weight: normal;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(68,138,255);
+  color: #AB0520;
   font-weight: normal;
   text-decoration: none;
 }
 
 a:active {
-  color: rgb(68,138,255);
+  color: #AB0520;
   font-weight: normal;
   text-decoration: none;
 }
@@ -609,7 +609,7 @@ html::-webkit-scrollbar-track {
 }
 
 #FullSlide{
-    color: #0f0f0f;
+    color: #DADCE0;
     font-size: 14px;
     position: absolute;
     width: 100%;
@@ -626,7 +626,7 @@ html::-webkit-scrollbar-track {
     font-weight: normal;
     line-height: 20px;
     letter-spacing: 0.2px;
-    color:#0f0f0f;
+    color:#DADCE0;
     padding: 0 1.2em 0 11px;
     flex: 1 1 0%;
 }
@@ -637,7 +637,7 @@ html::-webkit-scrollbar-track {
     position: relative;
     margin-top: 20px;
     padding: 0 0 0 11px;
-    color:#0f0f0f;
+    color:#DADCE0;
 }
 .fullSlideSnippet{
     font-size:12px;
