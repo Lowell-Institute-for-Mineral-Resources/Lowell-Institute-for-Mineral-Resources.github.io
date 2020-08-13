@@ -609,7 +609,7 @@ html::-webkit-scrollbar-track {
 }
 
 #FullSlide{
-    color: #DADCE0;
+    color: #F4EDE5;
     font-size: 14px;
     position: absolute;
     /*width: 100%;
@@ -627,7 +627,7 @@ html::-webkit-scrollbar-track {
     font-weight: normal;
     line-height: 20px;
     letter-spacing: 0.2px;
-    color:#DADCE0;
+    color:#F4EDE5;
     padding: 0 1.2em 0 11px;
     flex: 1 1 0%;
 }
@@ -638,14 +638,14 @@ html::-webkit-scrollbar-track {
     position: relative;
     margin-top: 20px;
     padding: 0 0 0 11px;
-    color:#DADCE0;
+    color:#F4EDE5;
 }
 .fullSlideSnippet{
     font-size:12px;
     margin-top:0;
     padding-top:0;
     padding-left:11px;
-    color: #DADCE0
+    color: #F4EDE5
 }
 .fullSlideContent{
     width: 100%;
@@ -679,6 +679,6 @@ html::-webkit-scrollbar-track {
     padding-bottom: 4.1em;
     /*padding-top: 20%;*/
     margin-top: 35%;
-    background-color: rgba( 30, 82, 136, .5);
+    background-color: rgba( 0, 28, 72, .3);
     
 }
