@@ -675,10 +675,10 @@ html::-webkit-scrollbar-track {
 }
 
 .fullSlideContent{
-    width: 420px;
+    width: 400px;
     padding-bottom: 4.1em;
     /*padding-top: 20%;*/
-    margin-top: 30%;
+    margin-top: 35%;
     background-color: rgba( 30, 82, 136, .5);
     
 }
