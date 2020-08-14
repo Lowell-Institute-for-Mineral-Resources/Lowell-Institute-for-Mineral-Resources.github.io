@@ -571,6 +571,22 @@ html::-webkit-scrollbar-track {
 /*Navigation Button Formatting */     
 
 
+.mdl-button--HikeGo {
+    background-color: #007D84;
+    color: white;
+    float: right;
+    width: 150px;
+      
+}
+
+.mdl-button--HikeBack {
+    background-color: #007D84;
+    color: white;
+    float: left;
+    width: 150px;
+      
+}
+
 .mdl-button--Next {
     background-color: #007D84;
     color: white;
