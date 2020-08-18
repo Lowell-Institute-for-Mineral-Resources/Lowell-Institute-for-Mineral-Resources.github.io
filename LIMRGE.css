@@ -8,6 +8,11 @@ body, html{
     -webkit-font-smoothing: antialiased;
     color: #DADCE0;
 }
+
+p{
+    color :#DADCE0;
+}
+
 .Qtext{
     font-size: 18px;
     font-weight: normal;
@@ -319,9 +324,7 @@ html::-webkit-scrollbar-track {
     padding-bottom: 4.1em;
 }
 
-.p{
-    color :#DADCE0;
-}
+
 
  .description{
     margin-top:18px;
