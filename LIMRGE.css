@@ -31,33 +31,33 @@ body, html{
     overflow-wrap: break-word;
 }
 a {
-  color: #8B0015;
-  font-weight: normal;
-  text-decoration: none;
-}
-a:link {
-  color: #8B0015;
-  font-weight: normal;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #EF4056;
-  font-weight: normal;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #AB0520;
-  font-weight: normal;
-  text-decoration: none;
-}
-
-a:active {
-  color: #AB0520;
-  font-weight: normal;
-  text-decoration: none;
-}
+    color: #EF4056;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  a:link {
+    color: #EF4056;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #81D3EB;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:#81D3EB;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color:  #EF4056;
+    font-weight: normal;
+    text-decoration: none;
+  }
 html::-webkit-scrollbar {
     width: 16px;
 }
@@ -206,6 +206,22 @@ html::-webkit-scrollbar-track {
     font-size: 12px;
     margin-right:8px;
     text-align: right;
+  }
+
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
   }
 
   /* Fading animation */
