@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Old Pueblo Mine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500|Roboto+Slab|Material+Icons" type="text/css" />
+        <link rel="stylesheet" href="https://lowell-institute-for-mineral-resources.github.io/material.min_blue-grey_blue.css" /> 
+        <link rel="stylesheet" href="https://lowell-institute-for-mineral-resources.github.io/LIMRGE.css" type="text/css" />
+        <style>
+            /* Required for slideshow, hides slides at beginning */
+            .mySlides {display: none}
+        </style>
+        <script>
+             //hides Google Earth elements and other things
+             window.onload = function(){ 
+                //sets slideshow to the first slide listed
+                showSlides(1);	
+             }
+           //controls for google Earth Navigation
+           function nextClick(){
+                    document.getElementById('Hike5Go').click();
+            }
+
+            function goBack(){
+                    document.getElementById('Hike4Go').click();
+            }
+
+
+        //slideshow script 
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+             function plusSlides(n) {
+                 showSlides(slideIndex += n);
+            }
+
+             // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
+        </script>
+    
+    </head>
+    <body>
+        <div id="container">
+            <main class="panelMain">
+                <div class="mediaContain">
+                    <div class="slideshow-container">
+                        <div style="text-align:center" >
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>                        
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                            <span class="dot" onclick="currentSlide(6)"></span>
+                            <span class="dot" onclick="currentSlide(7)"></span>
+                            <span class="dot" onclick="currentSlide(8)"></span>
+                            
+                          </div>
+                        <div class="mySlides fade ">
+                            <img class="image" src="https://lh3.googleusercontent.com/X21fEGKwW1C3fK8vsuuha0yiOU2bKNjPaQ5niySfY94lVxWG9dtHueTn5g4T836EVdYznA_-c3_cYaw-vNK8ZcddIW48CsMWb2okB-w5tjg2QFxY3FoeMjfRgOCxQvFSM6E75Hfe=w2400" />
+                                <!-- This is for the image caption if needed
+                                <div class="captionDiv">
+                                <div class="caption">Image Source: <a href="REPLACE: Image Source link" target="_blank">REPLACE: Image Source Name</a></div>
+                                </div>
+                                -->
+                              
+                        
+                        </div>
+                        <div  class="mySlides fade">
+                                <img class="image" src="https://lh3.googleusercontent.com/-0CYd28Rq7jsDGaqhbZO2sheKklI4vZvxz38WdZX9ZQNcQuZKs7HZl4swCLCgD3uonzrRKc2iTREcX5U4gwRvKuzrjqyxYYx-AOCk1u9E1ZUhbvNOHEYY3vSkQuXwkqb7q60OYN_=w2400" />
+                                <!-- This is for the image caption if needed
+                                <div class="captionDiv">
+                                <div class="caption">Image Source: <a href="REPLACE: Image Source link" target="_blank">REPLACE: Image Source Name</a></div>
+                                </div>
+                                -->
+                                
+                                                        
+                        </div>
+                                
+                         <div class="mySlides fade">
+                                <img class="image" src="https://lh3.googleusercontent.com/p0B047SlYZTfXFVvTcrcqsRHHnZcIp-etAqY91Ele4EpmkKX1zHu4WySBfrJqzH9A5e14uhH2mzAPpZzlBoq6AObltGz2L2M_4FndZWJa-JFMb8Eem0NJXKmWTfhcWe-4lpo9eCO=w2400"" />
+                                 <!--This is for the image caption if needed
+                                <div class="captionDiv">
+                                <div class="caption">Image Source: <a href="REPLACE: Image Source link" target="_blank">REPLACE: Image Source Name</a></div>
+                                </div> -->
+                               
+                                      
+                        </div>
+                         
+                               
+                        <div class="mySlides fade">
+                            <img class="image" src="https://lh3.googleusercontent.com/bzi1sToiB8BjtcgbwMpJD5js-7_7LLxn304mSDv4J9V3egmfqzsPsNa3c765M1YebqT1IetGBGW5DEVTPKs2PuTvlxIHyep_PKRGsv66mPbkdGXI6Xqwj5yY0qarKAS2VvhvMtbk=w2400" />
+                             <!--This is for the image caption if needed
+                            <div class="captionDiv">
+                            <div class="caption">Image Source: <a href="REPLACE: Image Source link" target="_blank">REPLACE: Image Source Name</a></div>
+                            </div>-->
+                        </div>    
+
+                        <div class="mySlides fade">
+                            <img class="image" src="https://lh3.googleusercontent.com/yF9au1FZ-B9dIfzRtbvC91ju4N5Sl8-OAAQBfZUfjkVWkCzOZz4rl3VJdfpqLQ6oHBU-cNfKgXXG-RYfbUlMnFE6OmGNm3o8BrxoTL9JjkK8aZX-nUkI5x4zDDHt3I_HlxbykG21=w2400" />
+                             <!--This is for the image caption if needed
+                            <div class="captionDiv">
+                            <div class="caption">Image Source: <a href="REPLACE: Image Source link" target="_blank">REPLACE: Image Source Name</a></div>
+                            </div>-->
+                        </div>    
+                         
+                        <div class="mySlides fade">
+                            <img class="image" src="https://lh3.googleusercontent.com/PSwumjlCr2wtzTjqfqfygBO39uzUuJ6E3xB1dw11sj8REPXq_4oJGv9LSrlfmXfTdRd60s_kFXKV1nk1aJxa3_USU8CPKL2XMqGznRm4u8tX7WHhtVXxThQYIhe1XbVpL2qPbyFm=w2400" />
+                             <!--This is for the image caption if needed
+                            <div class="captionDiv">
+                            <div class="caption">Image Source: <a href="REPLACE: Image Source link" target="_blank">REPLACE: Image Source Name</a></div>
+                            </div>-->
+                        </div> 
+
+                        <div class="mySlides fade">
+                            <img class="image" src="https://lh3.googleusercontent.com/KPzOav-FKO1ETaj55YOP0j2OR_WkvKpIZl4dLz6X-RZQC9IEVjz2LqZNImOCzFldzvbRJGTIXU-8dRhNQ-VZre0zfaZxLgbWeax-sJCM6TfukPX89jK3nI-QEM3ipTqbZ6SmDYUF=w2400" />
+                             <!--This is for the image caption if needed
+                            <div class="captionDiv">
+                            <div class="caption">Image Source: <a href="REPLACE: Image Source link" target="_blank">REPLACE: Image Source Name</a></div>
+                            </div>-->
+                        </div> 
+                        <div class="mySlides fade">
+                            <img class="image" src="https://lh3.googleusercontent.com/RUwl8pZYM_2GmMhXIAJiMQLCErD7Jad0YhvHupWrG0KWBcmszc1ZpPw2Hlh6j7Xnmkf1HfhLfKopBfIOmYtLTYm4U-mvGb5YHr06OY4dAgKn1qB1AEGk__7cBnXTx9R0vGGF5JKz=w2400" />
+                             <!--This is for the image caption if needed
+                            <div class="captionDiv">
+                            <div class="caption">Image Source: <a href="REPLACE: Image Source link" target="_blank">REPLACE: Image Source Name</a></div>
+                            </div>-->
+                        </div> 
+                                  
+                         
+                        
+
+                        <a class="next" onclick="plusSlides(1)">
+                            <span style=color:white><i class="material-icons">&#xE409;</i></span>
+                                    
+                        </a>
+                                
+                        <a class="prev" onclick="plusSlides(-1)">
+                             <span style=color:white><i class="material-icons">&#xE408;</i></span>
+                                    
+                         </a>
+                         
+                         
+                           
+                    </div>
+                    
+                   
+                </div>
+                <div class="content">
+                    
+                    <div class="title">
+                        Stop 4 (Panorama)
+                    </div>
+                    <div class="snippet">
+                        Old Pueblo Mine No. 5 Shaft Ruins
+                    </div>
+                    <div class="description">
+                            <p>
+                                At Stop 4 we find ourselves once more standing atop the ruins of a mine shaft. You should be able to see a lot more of the light blue chrysocolla here. You should be able to see more, thicker, mineral veins. 
+
+                            </p>
+                            <p>
+                                Here we can see the answer for why a mine was built here near Starr Pass. 
+                            </p>
+                            <p>
+                                If we look around the rocks scattered on the ground here, we may be able to find small pieces of the rocks the miners really wanted. They were looking for pieces of milky white quartz. You can still see small quartz veins in the rocks here if you look carefully. The miners were hoping the quartz contained gold along with the copper. 
+                            </p>
+                            <p>
+                                From the various shafts and drifts here at the Old Pueblo Mine, miners removed 67 tons of ore.  They ignored the white-speckled andesite porphyry and instead focused on the mineral veins containing quartz and chrysocolla. The mine produced copper, silver, and a small amount of gold. But 67 tons is not a lot of ore for a mine. A Tucson city garbage truck can hold around 12 tons. So in 6 trips the city could remove all the ore ever mined here. Compare that to the SIlverbell mine north of here, where one haul truck can hold 240 tons. So while there was ore here, there was not enough to sustain the mine for more than a few years. 
+                            </p>
+                            <p>
+                                For the final stop, let's leave the mine road and head up to the summit of Mine Mountain to see other ways Tucsonans interact with the Tucson Mountains. 
+                            </p>
+                            
+                    </div>
+                    
+                    <div class="title">
+                        BINGO!
+
+                    </div>   
+
+                    <div class="description">
+                       <p> Be on the lookout for more things on your bingo card! You may find a strange circle, a blue rock, or even see a deer if you are lucky! 
+                        </p>
+                        <button onclick="goBack()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--Previous">
+                                 <span><i class="material-icons">arrow_back</i>Go Back</span>
+                        </button>     
+                                      
+                        <button onclick="nextClick()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--HikeGo">
+                            Let's Hike! <span><i class="material-icons">arrow_forward</i></span>
+                        </button>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="logoLeft ">
+                        <a class="LIMR" href="https://minerals.arizona.edu" target="_blank"> 
+                        <img src="https://minerals.arizona.edu/sites/default/files/LIMRLogoTemplate.png">
+                        </a>
+                        
+                                                <!--
+                        <a href="https://minerals.arizona.edu" target="_blank">
+                            <img src="https://minerals.arizona.edu/sites/default/files/LIMRReverseGELogo.png" >
+                        </a>
+                    -->
+                    </div>
+                    <div class="logoRight" style="color:white">
+                        
+                        Mobile users swipe up<i class="material-icons">arrow_upward</i>
+                      
+                    </div>
+                    <div class="logoRight" style="display:none">
+                        <!-- ID tags to show locations -->
+                        <a href="#0DEF217D7314F51A5C65;show" id="PCShow"></a>
+                        <a href="#00AE5286E214DCB2127E;show" id="MobileShow"></a>
+                        <a href="#020AAE47E014F79C362E;show" id="A3Show"></a>
+
+                        <!-- ID tags to hide locations -->s
+                        <a href="#0DEF217D7314F51A5C65;hide" id="PCHide"></a>
+                        <a href="#00AE5286E214DCB2127E;hide" id="MobileHide"></a>
+                        <a href="#020AAE47E014F79C362E;hide" id="A3Hide"></a>
+                        
+                        <!-- ID Tags to hide unused locations -->
+                        <a href="#0035527E9414DCBA2390;hide" id="H1OldHide"></a>
+                        <a href="#0F457C0472148946600A;hide" id="OldStartHide"></a>
+                        <a href="#0F45438B711489415C7E;hide" id="Obs1Hide"></a>
+                        <a href="#01B31CA557148941ECFD;hide" id="FirstStopHide"></a>
+                        <a href="#000767F10514C72E6050;hide" id="3rdStopHide"></a>
+                        <a href="#07001FE56F148944A0C8;hide" id="ThirdStopHide"></a>
+                        <a href="#00213998CD14C76D0489;hide" id="MineMtSumHide"></a>
+                        <a href="#0B8D63F9DE148945E9A9;hide" id="Obs3Hide"></a>
+                        <a href="#0F682C6F2F14D6330ADC;hide" id="OldFinalHide"></a>
+                        <a href="#0026E4523614894B4D7E;hide" id="EndHide"></a>
+
+                        <!-- ID Tags to hide mine workings placemarks -->
+                        <a href="#049887574014CCDD40C7;hide" id="QSNo2ShaftHide"></a>
+                        <a href="#082C37B14714CCDD95DD;hide" id="QSNo1ShaftHide"></a>
+                        <a href="#045F87B48D14CCE4B3A5;hide" id="WagonRoadHide"></a>
+                        <a href="#06D3B68A1614CCE7B9ED;hide" id="BANo7ShaftHide"></a>
+                        <a href="#0029D4CFCA14CCE85C43;hide" id="BANo6ShaftHide"></a>
+                        <a href="#0918BF8CE514CCEAD114;hide" id="BANo1ShaftHide"></a>
+                        <a href="#024D4CAEB414CCEFF7C3;hide" id="MarNo2ShaftHide"></a>
+                        <a href="#0C66ADF99214CCF28103;hide" id="QSNo9ShaftHide"></a>
+                        <a href="#0138A67C9C14CCF3937A;hide" id="QSNo8ShaftHide"></a>
+                        <a href="#0C3A79CCC814CCF65039;hide" id="QSNo6TunnelHide"></a>
+                        <a href="#0E3A03098414CCF7DB0A;hide" id="QSno5ShaftHide"></a>
+                        <a href="#0FA7210A8714CCF9BB6D;hide" id="QSNo2DigHide"></a>
+                        <a href="#0E5C42B3A514CCFAC8CE;hide" id="QSNo3ShaftHide"></a>
+                        
+
+                        <!-- ID tags for Flyto locations -->
+                        <a href="#071E8A388814EB096A74;balloonFlyto" id="StartSlideGo"></a>
+                        <a href="#00AE5286E214DCB2127E;balloonFlyto" id="MobileGo"></a>
+                        <a href="#0DEF217D7314F51A5C65;balloonFlyto" id="PCGo"></a>
+                        <a href="#0BDD7DB7C714A7D20881;balloonFlyto" id="Hike1Go"></a>
+                        <a href="#07624DDD8514B2B37668;balloonFlyto" id="Stop1Go"></a>
+                        <a href="#0680926F0114D626C7E1;balloonFlyto" id="Hike2Go"></a>
+                        <a href="#037D9AA33D14CCBD42B8;balloonFlyto" id="Stop2Go"></a>
+                        <a href="#0759094563148949B8E6;balloonFlyto" id="Hike3Go"></a>
+                        <a href="#0690AB5A24148943612F;balloonFlyto" id="Stop3Go"></a>
+                        <a href="#067891523714894A6622;balloonFlyto" id="Hike4Go"></a>
+                        <a href="#0F215D045514CCBC6D1F;balloonFlyto" id="Stop4Go"></a>
+                        <a href="#07A755363314D636C15A;balloonFlyto" id="Hike5Go"></a>
+                        <a href="#07028B0BAC14D63BBD99;balloonFlyto" id="Stop5Go"></a>
+                        <a href="#0A0FE92D1F14F671A4E4;balloonFlyto" id="CreditsGo"></a>
+
+
+                        <!-- 
+                            Start slide: #071E8A388814EB096A74  ID: StartSlide
+                            Mobile Start: #00AE5286E214DCB2127E ID: Mobile
+                            Pc Start: #0DEF217D7314F51A5C65     ID: PC
+                            Hike 1: #0BDD7DB7C714A7D20881       ID: Hike1
+                            Stop 1: #07624DDD8514B2B37668       ID: Stop1
+                            Hike 2: #0680926F0114D626C7E1       ID: Hike2
+                            Stop 2: #037D9AA33D14CCBD42B8       ID: Stop2
+                            Hike 3: #0759094563148949B8E6       ID: Hike3
+                            Stop 3: #0690AB5A24148943612F       ID: Stop3
+                            Hike 4: #067891523714894A6622       ID: Hike4
+                            Stop 4: #0F215D045514CCBC6D1F       ID: Stop4
+                            Hike 5: #07A755363314D636C15A       ID: Hike5
+                            Stop 5: #07028B0BAC14D63BBD99       ID: Stop5
+                            Credits: #0A0FE92D1F14F671A4E4      ID: Credits
+                            
+                            Permenant hidden slides:
+                                Hike 1 (old): #0035527E9414DCBA2390     ID: H1Old
+                                Old Start: #0F457C0472148946600A        ID: OldStart
+                                Observation 1: #0F45438B711489415C7E    ID: Obs1
+                                First Stop: #01B31CA557148941ECFD       ID: FirstStop
+                                3rd Stop 360: #000767F10514C72E6050     ID: 3rdStop
+                                Third Stop: #07001FE56F148944A0C8       ID: ThirdStop
+                                Mine Mountain Summit: #00213998CD14C76D0489     ID: MineMtSum   
+                                Observation 3 (Mine Mountain): #0B8D63F9DE148945E9A9    ID: Obs3
+                                Old Final Stop: #0F682C6F2F14D6330ADC   ID: OldFinal
+                                End: #0026E4523614894B4D7E              ID: End
+
+                            Mine Workings Placemarks:
+                                Quien Sabe No2 No2 Shaft: #049887574014CCDD40C7 ID: QSNo2Shaft
+                                Quien Sabe No2 No1 Shaft: #082C37B14714CCDD95DD ID: QSNo1Shaft
+                                Old Wagon Road: #045F87B48D14CCE4B3A5           ID: WagonRoad
+                                Battle Axe No7 shaft: #06D3B68A1614CCE7B9ED     ID: BANo7Shaft
+                                Battle Axe No 6 Shaft: #0029D4CFCA14CCE85C43    ID: BANo6Shaft
+                                Battle Axe No 1 dig shaft: #0918BF8CE514CCEAD114 ID: BANo1Shaft
+                                Marion No 2 Shaft: #024D4CAEB414CCEFF7C3        ID: MarNo2Shaft
+                                Quien Sabe No1 No 9 shaft: #0C66ADF99214CCF28103 ID: QSNo9Shaft
+                                Quein Sabe No 1 No8 Shaft: #0138A67C9C14CCF3937A ID: QSNo8Shaft   
+                                Quien Sabe No1 No6 Tunnel: #0C3A79CCC814CCF65039 ID: QSNo6Tunnel
+                                Quien Sabe No 1 No5 Shaft: #0E3A03098414CCF7DB0A ID: QSno5Shaft
+                                Quien Sabe No 1 No2 dig Shaft: #0FA7210A8714CCF9BB6D ID: QSNo2Dig 
+                                Quien Sabe No1 no 3 Shaft: #0E5C42B3A514CCFAC8CE ID:QSNo3Shaft
+                            
+
+                        -->
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</html>
