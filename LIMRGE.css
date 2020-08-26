@@ -696,10 +696,12 @@ html::-webkit-scrollbar-track {
     padding-left:11px;
     color: #F4EDE5
 }
+/*
 .fullSlideContent{
     width: 100%;
     padding-bottom: 4.1em;
 }
+*/
 
 .fullSlideFooter{
     background: #0C234B;
@@ -728,7 +730,7 @@ html::-webkit-scrollbar-track {
     padding-bottom: 4.1em;
     /*padding-top: 20%;*/
     margin-top: 35%;
-    background-color: rgba( 0, 28, 72, .3);
+    background-color: rgba( 0, 28, 72, .5);
     
 }
 
