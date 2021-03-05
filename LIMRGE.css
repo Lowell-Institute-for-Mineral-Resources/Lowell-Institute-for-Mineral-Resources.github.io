@@ -389,11 +389,17 @@ html::-webkit-scrollbar-track {
 #playIcon{
     font-size:24px
 }
+#playIcon2{
+    font-size:24px
+}
 #playButton{
     font-size:18px;
     font-weight:normal;
 }
-
+#playButton2{
+    font-size:18px;
+    font-weight:normal;
+}
 /*Quiz Selector CSS*/
 .mdl-chip {
     height: 32px;
