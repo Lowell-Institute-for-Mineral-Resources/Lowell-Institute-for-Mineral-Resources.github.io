@@ -211,8 +211,18 @@ html::-webkit-scrollbar-track {
     font-size: 12px;
     margin-right:8px;
     text-align: right;
+    
   }
-
+  .videoCapDiv{
+    background-color: transparent;
+    text-align: left; 
+    opacity: 1;
+    width: 100%;
+    padding: 8px 0px;
+    position: absolute;
+    bottom: 0px;                          
+                                   
+  }
   /* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
@@ -292,6 +302,15 @@ html::-webkit-scrollbar-track {
         bottom: 0px;
         background-color: #202124;
         opacity: 0.7;
+      }
+      .videoCapDiv{
+        width: 100%;
+        padding: 4px 0px;
+        position: absolute;
+        bottom: 0px;
+        background-color: transparent;
+        opacity: 1;
+        text-align: left;
       }
       .caption {
         font-family: Roboto,Noto,sans-serif;
